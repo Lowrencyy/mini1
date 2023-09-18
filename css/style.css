@@ -1,0 +1,194 @@
+:root {
+  --color-red: red;
+  --color-blue: rgb(0, 102, 255);
+  --color-yellow: yellow;
+  --color-white: white;
+  --color-black: black;
+}
+
+#mainMenu .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+#mainMenu .nav-link {
+  color: #000000;
+}
+
+#mainMenu .nav-link:hover {
+  background: #f70202;
+  color: #ffffff;
+  border-radius: 5px;
+}
+#mainMenu .nav-link.active {
+  background: #0DCAF0;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+#hero-section {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),
+    url(/images/main-photo/bohol-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* FONT */
+
+#discover {
+  padding-top: 23.25rem;
+  margin-left: 6vw;
+}
+
+#discover h2 {
+  font-size: 5.625rem;
+  padding: 0;#
+  margin: 0;
+}
+#discover h1 {
+  font-size: 120px;
+  padding: 0;
+  margin: 0;
+}
+#discover h3 {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+#discover a {
+  font-size: 20;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+/* about section */
+
+#about-section {
+  height: auto;
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(/images/main-photo/palawan-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#travel-section {
+  height: auto;
+  background-image: url(/images/main-photo/travel.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.about-section {
+  height: auto;
+  padding-top: 90px;
+  background-image: url(/images/main-photo/image2.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about {
+  color: rgb(0, 0, 0);
+  margin}
+
+.about {
+  color: #fffff;
+  padding-top: 80px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* #tourist-spot {
+  height: auto;
+  background-image: url(/images/images/festivals.jpeg);
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+  position: relative;
+} */
+
+#looking-for {
+  padding-top: 150px;
+}
+
+#looking-for-section {
+  margin-top: 150px;
+}
+
+/* --------------------card section and card hover----------------------------- */
+.card-body {
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+/* this is for embed */ 
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-top: 20px;
+}
+
+.iframe-container iframe{position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#airline-section {
+  background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.55)),url(/images/main-photo/airplane-backround.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+
+#airbnb-section {background-image: url(/images/main-photo/okada.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+
+  @media screen and (max-width: 1280px) {
+    #banner video {
+      
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    #hero-section {
+      padding: 0;
+      margin: 0;
+      display:none;
+    }
+  }
+  
+  @media screen and (max-width: 412px) {
+    #hero-section {
+      min-height: 0;
+      padding: 6em 2em 4em 2em;
+    }
+  
+    #banner br {
+      display: none;
+    }
+  }
+  
