@@ -4452,4 +4452,13 @@ body.is-mobile .banner > article {
   #filipino-intro .row {
     padding: 3rem 0 1rem 0;
   }
+
+  #img-size img {
+    width: 350px;
+    padding-top: 10px;
+  }
+
+  #culture {
+    width: 350px;
+  }
 }

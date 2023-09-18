@@ -8,7 +8,6 @@
 
 #mainMenu .nav-link {
   color: rgb(0, 0, 0);
-  margin-right: 5px;
 }
 
 #mainMenu .nav-link {
@@ -225,9 +224,12 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),
       url(/images/main-photo/bohol-1.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: center;
     background-attachment: fixed;
     color: white;
-    font-family: ;
+  }
+
+  #main-id {
+    display: none;
   }
 }
