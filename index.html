@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&family=M+PLUS+Rounded+1c:wght@900&family=Montserrat:wght@100&family=Mooli&family=Roboto:wght@100&family=Shadows+Into+Light&family=Staatliches&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
+    <!-- SWIPER JS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
     <!-- THIS IS MY FAV ICON -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -73,7 +78,7 @@
                   </li>
                   <li><a href="/location/luzon/luzon.html" class="dropdown-item">LUZON</a></li>
                   <li><a href="/location/visayas/visayas-main.html" class="dropdown-item">VISAYAS</a></li>
-                  <li><a href="#" class="dropdown-item">MINDANAO</a></li>
+                  <li><a href="/location/mindanao/mindanao1.html" class="dropdown-item">MINDANAO</a></li>
                 </ul>
               </li>
               <li><a href="#airline-section" class="nav-link">FLIGHT NOW</a></li>
@@ -605,13 +610,12 @@
              </div>
            </div>
          </div>
-         <div style="margin-bottom:120px;"></div>
-       </div>
+         <div class="pb-5"></div>
         </section>
          <!-- Footer -->
     <footer class="py-2 bg-white text-dark text-center position-relative">
       <div class="container">
-        <p class="lead">Copyright &copy; 2023 DISCOVER PHILIPPINES WD86</p>
+        <H6 class="lead">Copyright &copy; 2023 DISCOVER PHILIPPINES WD86</H6>
         <a href="#" class="position-absolute bottom-0 end-0 p-5">
           <i class="bi bi-arrow-up-circle h1"></i>
         </a>
@@ -628,5 +632,29 @@
     <script>
       AOS.init();
     </script>
+
+    <!-- SWIPER JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
   </body>
 </html>
