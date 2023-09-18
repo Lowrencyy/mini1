@@ -4447,3 +4447,9 @@ body.is-mobile .banner > article {
     padding: 3rem 0 1rem 0;
   }
 }
+
+@media screen and (max-width: 412px) {
+  #filipino-intro .row {
+    padding: 3rem 0 1rem 0;
+  }
+}
