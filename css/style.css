@@ -21,7 +21,7 @@
 }
 #mainMenu .nav-link.active {
   background: #0dcaf0;
-  color: #ffffff;
+  color: red;
   border-radius: 5px;
 }
 
@@ -105,12 +105,35 @@ h4 {
   font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
+#looking-for-section h6 {
+  font-family: "Concert One", cursive;
+}
+
+#looking-for-section a {
+  font-family: "Concert One", cursive;
+}
+
+#airline-section h2 {
+  font-family: "Concert One", cursive;
+}
+#airline-section h6 {
+  font-family: "Concert One", cursive;
+  font-size: 30px;
+}
+#airline-section a {
+  font-family: "Concert One", cursive;
+  font-size: 15px;
+}
+
 /* WHAT ARE YOU LOOKING FOR SECTION */
 
 #about-section h6 {
   font-family: "Concert One", cursive;
 }
 
+#map-container h5 {
+  font-family: "Concert One", cursive;
+}
 /* about section */
 
 #about-section {
@@ -123,7 +146,8 @@ h4 {
 
 #travel-section {
   height: auto;
-  background-image: url(/images/main-photo/travel.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+    url(/images/main-photo/travel.jpeg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -200,7 +224,7 @@ img {
   background-attachment: fixed;
 }
 #map-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(/images/main-photo/bg-1.jpeg);
   background-size: cover;
   background-position: center;
@@ -208,7 +232,8 @@ img {
 }
 
 #airbnb-section {
-  background-image: url(/images/main-photo/okada.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/images/main-photo/okada.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
