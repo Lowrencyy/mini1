@@ -34,37 +34,49 @@
 #hero-section {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.55)),
     url(/images/main-photo/bohol-1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   color: white;
-  font-family: ;
+  font-family: "Concert One", cursive;
 }
 
 /* FONT */
+
+/* THIS IS NAVBAR */
+
+#main_menu .nav-link {
+  font-family: "Concert One", cursive;
+  font-weight: 900;
+}
 
 #discover {
   padding-top: 23.25rem;
   margin-left: 6vw;
 }
 
+/* THIS IS DISCOVER FONT */
+
 #discover h2 {
   font-size: 5.625rem;
   padding: 0;
   margin: 0;
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Concert One", cursive;
 }
+
+/* THIS IS PHILIPPINES */
 
 #discover h1 {
   font-size: 120px;
   padding: 0;
   margin: 0;
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Concert One", cursive;
   font-weight: 900;
 }
 #discover h3 {
+  font-family: "Concert One", cursive;
   font-size: 20px;
   padding: 0;
   margin: 0;
@@ -86,11 +98,17 @@ p {
 }
 
 #island-ph p {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Annie Use Your Telescope", cursive;
 }
 
 h4 {
   font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* WHAT ARE YOU LOOKING FOR SECTION */
+
+#about-section h6 {
+  font-family: "Concert One", cursive;
 }
 
 /* about section */
