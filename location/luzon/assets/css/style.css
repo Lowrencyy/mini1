@@ -1523,3 +1523,8 @@ body.is-loading #banner:before {
   color: #ffffff;
   border-radius: 5px;
 }
+
+#main_menu .nav-link {
+  font-family: "Concert One", cursive;
+  font-weight: 900;
+}
